@@ -6,18 +6,15 @@
 Integer_chip_torque= -32768000
 
 # hex 2'complement
-def to_hex(val, nbits):
-    return hex((val + (1 << nbits)) % (1 << nbits))
 
 def to_hex_2(val, nbits):
     return (val + (1 << nbits)) % (1 << nbits) 
 
 #Output decode operation
 
-Decode_V1= to_hex(Integer_chip_torque,32)
 Decode_V2 = to_hex_2(Integer_chip_torque,32)
 
-print("first value :", Decode_V1, "Seconde value :", Decode_V2)
+print("first value :", Decode_V2)
 
 # Take the torque part seconde part of the register
 
