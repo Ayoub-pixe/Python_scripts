@@ -5,7 +5,6 @@
 #chipTorque = 0xFE0C0000
 Integer_chip_torque= -32768000
 
-#hey ziko this is walid's comment
 
 # hex 2'complement
 
