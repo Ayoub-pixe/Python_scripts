@@ -8,6 +8,8 @@ Integer_chip_torque= -32768000
 
 # hex 2'complement
 
+# wii33
+
 def to_hex_2(val, nbits):
     return (val + (1 << nbits)) % (1 << nbits) 
 
